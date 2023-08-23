@@ -1,0 +1,151 @@
+*{
+padding: 0;
+margin: 0;
+}
+/* Developed by:
+AMpula ICT Production 2022
+@author: Andrea Mpulila
+Phone: +255743382224
+Email: andreampulilaj@gmail.com
+*/
+body{
+background-color: #e5e5e5;
+}
+ul, li, html, a {
+margin: 0;
+padding: 0;
+-webkit-font-smoothing: antialiased;
+}
+label.error {
+    font-size: small;
+    color: red;
+}
+.header{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.left-logo{
+width: 120px;
+}
+.right-logo{
+    width: 120px;
+    }
+
+.site-title{
+width: 80%;
+
+}
+.site-title a{
+text-decoration: none;
+}
+.site-title a:hover{
+color: #fff!important;
+}
+
+.site-title > a{
+font-size: 30px;
+font-weight: bold;
+}
+
+
+.nav-wrapper {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    font-size: large;
+    background:  repeat #434734;
+    line-height: 4%;
+    }
+
+.nav {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+height: 4%;
+background: repeat #333940;
+line-height: 1%;
+}
+
+.nav ul {
+margin: 0 auto;
+list-style: none;
+position: relative;
+display: list-item;
+z-index: 300;
+}
+
+.menu {
+display: list-item;
+}
+.nav ul li {
+float: left;
+}
+
+.nav ul li:hover {
+background: #3e5347;
+}
+
+.nav ul li:hover a {
+color: #fff;
+}
+
+.nav ul a:hover {
+border-bottom: 3px solid #050707;
+}
+
+.nav ul li a {
+display: block;
+padding: 12px;
+color: #ffffff;
+text-decoration: none;
+border-bottom: 2px solid #161f19;
+border-right: 1px dotted #e5e5e5;
+}
+.nav ul li .home{
+border-left: 1px dotted #e5e5e5;
+}
+
+.main-content{
+background: #fff;
+}
+
+
+.container-fluid.footer-wrapper{
+margin-top: 70px;
+background-color: #2e2e2e;
+}
+
+.container-fluid.footer-wrapper div > div{
+text-align: center;
+border-right: 3px solid rgb(255, 255, 255);
+color: #fff;
+}
+
+.ft > a{
+text-decoration: none;
+color: #999;
+
+}
+
+.dash{
+    display: inline-block;
+    padding:10px;
+    margin: auto;
+    background-color: rgb(23, 49, 66);
+    color: #fff;
+    width:100%;
+    height: 50px;
+    }
+    .dash-titles{
+    padding:5px;
+    margin: auto;
+    background-color: rgb(23, 49, 66);
+    color: #fff;
+    width:100%;
+    height: 50px;
+    }
+    
+    .sogeza-chini{
+        margin-top:20%;
+    }
+    
